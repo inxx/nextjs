@@ -12,6 +12,9 @@ const Header = () => (
             <Link href="/about">
                 <span style={{background: 'black', color: 'white', fontSize: '16px'}}>소개</span>
             </Link>
+            <Link prefetch href="/ssr-test">
+                <span style={linkStyle}>SSR 테스트</span>
+            </Link>
         </h2>
     </div>
 );
